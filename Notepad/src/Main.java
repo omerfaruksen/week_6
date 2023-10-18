@@ -14,7 +14,7 @@ public class Main {
         Scanner text = new Scanner(System.in);//Scanner ile kullanıcıdan kaydetmek istediği metni alıyoruz
         System.out.print("Lütfen notunuzu giriniz : ");
         String info= text.nextLine();
-        String input=" " +info;//Bir önceki runda eklemiş olduğumuz not ile
+        String input=" "+info;//Bir önceki runda eklemiş olduğumuz not ile
                                //bir sonraki run ile eklediğimiz not arasında bir boşluk kalması için bu şekilde tasarlandı
 
         FileWriter notepadWriter=new FileWriter(notepadFile,true);
